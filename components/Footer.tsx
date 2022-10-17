@@ -18,10 +18,10 @@ function Footer() {
             <TwitterIcon />
           </div>
         </div>
-        <div>
-          <span className="cursor-pointer px-4 text-2xl hover:text-[#a1899a]">Boss Spaces</span>
-          <span className="cursor-pointer px-4 text-2xl hover:text-[#a1899a] border-x-2 border-black">Boss Casting</span>
-          <span className="cursor-pointer px-4 text-2xl hover:text-[#a1899a]">Eden Casting Studios</span>
+        <div className='flex items-center justify-center text-center'>
+          <span className="cursor-pointer px-4 md:text-2xl text-md hover:text-[#a1899a]">Boss Spaces</span>
+          <span className="cursor-pointer px-4 md:text-2xl text-md hover:text-[#a1899a] border-x-2 border-black">Boss Casting</span>
+          <span className="cursor-pointer px-4 md:text-2xl text-md hover:text-[#a1899a]">Eden Casting Studios</span>
         </div>
         <div className='text-center'>
           <p className="text-4xl">logo</p>

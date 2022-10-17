@@ -10,7 +10,7 @@ function NavBar() {
         windowScrollTop > 800 &&
         (
           <a href="#" className='animate__animated  animate__fadeIn'>
-            <FontAwesomeIcon className='fixed right-0 top-[50vh] translate-y-[-50%] text-[2rem] mr-4' icon={faChevronUp} cursor="pointer" />
+            <FontAwesomeIcon className='fixed right-0 bottom-[1rem] translate-y-[-50%] text-[2rem] mr-4' icon={faChevronUp} cursor="pointer" />
           </a>
         )
       }
@@ -28,7 +28,7 @@ function NavBar() {
           </div>
           <FontAwesomeIcon icon={faBars} cursor="pointer" className='text-[2rem]' />
         </div>
-        <ul className="flex items-center justify-center gap-[1rem] mt-4">
+        <ul className="flex items-center justify-center gap-[1rem] mt-4 flex-wrap">
           <li className="bg-[#a1899a] text-white px-2 cursor-pointer">MAINBOARD</li>
           <li className="cursor-pointer">NEW FACES</li>
           <li className="cursor-pointer">DEVELOPMENT</li>

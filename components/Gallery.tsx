@@ -14,7 +14,7 @@ function Gallery() {
     })
   }, [])
   return (
-    <div className="mt-[140px] flex flex-col items-center ">
+    <div className="mt-[10rem] flex flex-col items-center ">
       {isLoading && <FontAwesomeIcon icon={faSpinner} spin />}
 
       <div className="text-3xl font-bold tracking-[0.5rem] py-5">MAINBOARD</div>
